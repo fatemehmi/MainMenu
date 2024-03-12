@@ -1,0 +1,42 @@
+.Card {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 0px 16px;
+    display: grid;
+    row-gap: 50px;
+    grid-template-columns: 2fr 3fr 5fr 3fr;
+
+    align-items: center;
+    width: 798px;
+    padding-right: 40px;
+}
+
+.card_avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+.card_name {
+    height: 48px;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+
+.card_content {
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card_date{
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+}

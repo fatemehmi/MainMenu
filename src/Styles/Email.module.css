@@ -1,0 +1,18 @@
+.EmailContainer{
+    margin-bottom: 17px;
+    width: 880px;
+}
+.title{
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 700;
+    size: 24px;
+    line-height: 43px;
+}
+.rowContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 332px;
+    overflow-y: scroll;
+}

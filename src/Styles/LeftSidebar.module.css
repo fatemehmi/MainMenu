@@ -1,0 +1,198 @@
+.Container{
+    width: 303px;
+    height: 855px;
+    background-color: #fff;
+    margin-top: 65px;
+    margin-bottom: 0;
+    border-radius: 32px;
+    padding: 24px 16px;
+    gap: 16px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1) ;
+}
+
+.iconbar{
+    display: flex;
+    gap: 30.25px;
+    margin: 0px 16px;
+    align-items: center;
+}
+
+.calender,.alarm,.notification{
+    width: 28px;
+    height: 28px;
+}
+.avatar{
+    width: 42px;
+    height: 42px;
+    background-color: blue;
+    border-radius: 50%;
+}
+.dropdown{
+    width: 24px;
+    height: 24px;
+}
+.leftarrow{
+    width: 15px;
+    transform: rotate(-45deg);
+    border: 1px solid black;
+    border-bottom-left-radius: 1px;
+    border-top-right-radius: 2px ;
+    border-bottom-right-radius: 2px;
+}
+.rightarrow{
+    width: 15px;
+    transform: rotate(45deg);
+    margin-top: 16px;
+    margin-bottom: -10px;
+    margin-left: -8px;
+    border: 1px solid black;
+    border-bottom-right-radius: 1px;
+    border-top-left-radius: 2px ;
+    border-bottom-left-radius: 2px;
+}
+
+.formationcard{
+    width: 247px;
+    height: 289px;
+    background-color: #fff;
+    border-radius: 24px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1) ;
+    border: 1px solid #EAECF0;
+    margin-top: 16px;
+    
+    padding-left: 24px;
+    flex-direction: column;
+}
+.formationcard p {
+    font-weight: 700;
+    text-align: start;
+}
+.title{
+    font-size: 24px;
+    line-height: 28.13px;
+}
+.status , .estimate , .days{
+    font-size: 16px;
+    line-height: 18.75px;
+}
+.slider{
+    background-color: #D0D5DD;
+    width: 218px;
+    height: 20px;
+    border-radius: 16px;
+}
+.sliderstatus{
+    background-color: #6941C6;
+    width: 152px;
+    height: 20px;
+    border-radius: 16px;
+}
+.days{
+    color: #667085;
+}
+.view{
+    width: 207px;
+    height: 42px;
+    border-radius: 8px;
+    padding: 8px;
+    font-family: JosefinSans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #fff;
+    background-color: #6941C6;
+    border: none;
+    cursor: pointer;
+}
+.Todolist{
+    text-align: start;
+}
+
+.todostitle{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 43px;
+}
+
+.todos{
+    max-height: 260px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    overflow-y: scroll;
+    margin-bottom: 24px;
+}
+
+.todo{
+    height: 41px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.todo_icon{
+    display: flex;
+    align-items: flex-start;
+}
+.todo_info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.todotitle{
+    font-weight: 700;
+    font-size: 16px;
+    height: 20px;
+}
+
+.tododate{
+    font-weight: 700;
+    font-size: 12px;
+    color: #98A2B3;
+}
+
+.add{
+    border: none;
+    background-color: #fff;
+    height: 19px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.75px;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    margin-top: 34.5px;
+    gap: 16px;
+    cursor: pointer;
+}
+
+.addbtn{
+    font-weight: 700;
+    font-size: 16px;
+    
+}
+
+.footer{
+    text-align: start;
+    height: 108px;
+    font-weight: 700;
+    padding-left: 16px;
+    margin-top: 32px;
+}
+
+.footer p:nth-child(1){
+    font-size: 16px;
+}
+.footer p:nth-child(2){
+
+    font-size: 14px;
+    line-height: 14px;
+    color: #98A2B3;
+}
+.footer p:nth-child(3){
+    font-size: 12px;
+    line-height: 14.06px;
+    color: #98A2B3;
+    width: 189px;
+}

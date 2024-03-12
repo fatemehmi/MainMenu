@@ -1,0 +1,45 @@
+.Card {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+    padding: 0px 16px;
+    padding-top: 16px;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+}
+
+.card_icon {
+    display: flex;
+    justify-content: flex-start;
+    height: 24px;
+    width: 24px;
+}
+
+.card_header {
+    height: 48px;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+}
+
+.card_content {
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #475467;
+    text-align: start;
+    height: 48px;
+    margin: 0px;
+}
